@@ -1,0 +1,4 @@
+interface:
+  display_name: "Diagram Drawing"
+  short_description: "Create readable ASCII diagrams"
+  default_prompt: "Use $diagram-drawing to create an ASCII diagram for a regulatory, market, or strategy concept."

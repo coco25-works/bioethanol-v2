@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reference Writing Style"
+  short_description: "Write clear, layered reference docs"
+  default_prompt: "Use $reference-writing-style to draft a readable multi-layer reference document."

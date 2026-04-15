@@ -1,0 +1,4 @@
+interface:
+  display_name: "Market Analysis"
+  short_description: "Compare options, markets, and demand"
+  default_prompt: "Use $market-analysis to compare option combinations and rank them analytically."

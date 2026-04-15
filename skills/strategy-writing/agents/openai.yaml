@@ -1,0 +1,4 @@
+interface:
+  display_name: "Strategy Writing"
+  short_description: "Write decision-useful strategy documents"
+  default_prompt: "Use $strategy-writing to turn validated market analysis into a commercial strategy file."

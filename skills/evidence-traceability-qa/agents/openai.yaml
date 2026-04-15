@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evidence Traceability QA"
+  short_description: "Check traceability and consistency"
+  default_prompt: "Use $evidence-traceability-qa to validate evidence chains, consistency, and update impact across the document system."

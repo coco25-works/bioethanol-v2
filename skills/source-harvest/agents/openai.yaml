@@ -1,0 +1,4 @@
+interface:
+  display_name: "Source Harvest"
+  short_description: "Build evidence-first source registers"
+  default_prompt: "Use $source-harvest to collect and normalize primary regulatory sources into a source register."

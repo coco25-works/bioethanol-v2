@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reference Planning"
+  short_description: "Plan large reference document systems"
+  default_prompt: "Use $reference-planning to design a phased multi-file reference system."
