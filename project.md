@@ -26,19 +26,19 @@ The repository is **complete** as both a research deliverable and a readable dec
 ## How To Read The Deliverables
 
 ### Start here
-1. `deliverables/05_strategy_outputs/executive_strategy_summary.md`
-2. `deliverables/05_strategy_outputs/se_asia_producer_opportunity_map.md`
-3. `deliverables/04_market_analysis/global_market_comparison.md`
+1. `deliverables/05_strategy_outputs/01_executive_strategy_summary.md`
+2. `deliverables/05_strategy_outputs/02_se_asia_producer_opportunity_map.md`
+3. `deliverables/04_market_analysis/01_global_market_comparison.md`
 
 ### Then read by market
-4. `deliverables/02_country_reference/eu/germany.md`
-5. `deliverables/02_country_reference/eu/netherlands.md`
-6. `deliverables/02_country_reference/americas/united_states_federal.md`
+4. `deliverables/02_country_reference/eu/02_germany.md`
+5. `deliverables/02_country_reference/eu/03_netherlands.md`
+6. `deliverables/02_country_reference/americas/01_united_states_federal.md`
 
 ### Then read by pathway
-7. `deliverables/03_biofuel_reference/biodiesel_and_fame.md`
-8. `deliverables/03_biofuel_reference/renewable_diesel_hvo.md`
-9. `deliverables/03_biofuel_reference/certifications_and_chain_of_custody.md`
+7. `deliverables/03_biofuel_reference/03_biodiesel_and_fame.md`
+8. `deliverables/03_biofuel_reference/04_renewable_diesel_hvo.md`
+9. `deliverables/03_biofuel_reference/01_certifications_and_chain_of_custody.md`
 
 ## Key Learnings
 1. Strategy usefulness is the main risk, not structure

@@ -22,12 +22,16 @@ The repository is substantively complete and usable as a decision-support set.
   - All reader-facing markdown files under `deliverables/` were reviewed at corpus level.
   - Internal markdown links under `deliverables/` were checked and corrected.
   - Indonesia, Malaysia, and Thailand mandate references were refreshed where stale.
-  - A new `team_share_readiness_review.md` appendix was added.
+  - A new `00_team_share_readiness_review.md` appendix was added.
 - Sharing polish completed on 2026-04-23:
   - Added `.gitattributes` for stable text line endings.
-  - Added `deliverables/START_HERE.md`.
-  - Added `deliverables/summary_report_20_page.md` as a 20-page briefing-style summary.
+  - Added `deliverables/00_START_HERE.md`.
+  - Added `deliverables/01_summary_report_20_page.md` as a 20-page briefing-style summary.
   - Added `deliverables/README.md` to guide team navigation.
+- Deliverables navigation polish completed on 2026-04-23:
+  - Numbered all non-README markdown files under `deliverables/`.
+  - Updated deliverable landing pages with proper numbered file sections and purpose notes.
+  - Added `deliverables/06_appendices/README.md` for appendix navigation.
 
 ## What Is Still Open
 

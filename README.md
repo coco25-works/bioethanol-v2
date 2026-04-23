@@ -15,7 +15,7 @@ This repo is **complete**. It contains:
 - market analysis files including rankings, mapping, and asymmetry comparisons (`deliverables/04_market_analysis/`)
 - strategy outputs including executive summary, pathway strategies, market-entry strategies, and risk/no-go files (`deliverables/05_strategy_outputs/`)
 - QA, glossary, acronyms, watchlists, and update operations (`deliverables/06_appendices/`)
-- a plan review report (`deliverables/plan-review.md`)
+- a plan review report (`deliverables/99_plan_review.md`)
 - readability rewrite across all files for mixed-team use
 
 ## What This Repository Is For
@@ -83,11 +83,11 @@ All seven phases are built and the final consistency and status-reconciliation p
 
 If you are new to this project:
 
-1. Start with `deliverables/START_HERE.md`
-2. Then read `deliverables/summary_report_20_page.md`
-3. Then read `deliverables/05_strategy_outputs/executive_strategy_summary.md`
-4. Then read `deliverables/05_strategy_outputs/se_asia_producer_opportunity_map.md`
-5. Then read `deliverables/04_market_analysis/global_market_comparison.md`
+1. Start with `deliverables/00_START_HERE.md`
+2. Then read `deliverables/01_summary_report_20_page.md`
+3. Then read `deliverables/05_strategy_outputs/01_executive_strategy_summary.md`
+4. Then read `deliverables/05_strategy_outputs/02_se_asia_producer_opportunity_map.md`
+5. Then read `deliverables/04_market_analysis/01_global_market_comparison.md`
 6. Then read the country reference files for your market of interest
 7. Then read the pathway reference files for your pathway of interest
 
@@ -97,10 +97,10 @@ This repository is complete as both a populated research deliverable set and a r
 
 ## Key Files
 
-- [deliverables/START_HERE.md](deliverables/START_HERE.md)
-- [deliverables/summary_report_20_page.md](deliverables/summary_report_20_page.md)
-- [deliverables/05_strategy_outputs/executive_strategy_summary.md](deliverables/05_strategy_outputs/executive_strategy_summary.md)
-- [deliverables/05_strategy_outputs/se_asia_producer_opportunity_map.md](deliverables/05_strategy_outputs/se_asia_producer_opportunity_map.md)
-- [deliverables/04_market_analysis/global_market_comparison.md](deliverables/04_market_analysis/global_market_comparison.md)
-- [deliverables/06_appendices/phase_status.md](deliverables/06_appendices/phase_status.md) — build and rewrite phase tracker
-- [deliverables/06_appendices/writing_standard.md](deliverables/06_appendices/writing_standard.md) — readability standard
+- [deliverables/00_START_HERE.md](deliverables/00_START_HERE.md)
+- [deliverables/01_summary_report_20_page.md](deliverables/01_summary_report_20_page.md)
+- [deliverables/05_strategy_outputs/01_executive_strategy_summary.md](deliverables/05_strategy_outputs/01_executive_strategy_summary.md)
+- [deliverables/05_strategy_outputs/02_se_asia_producer_opportunity_map.md](deliverables/05_strategy_outputs/02_se_asia_producer_opportunity_map.md)
+- [deliverables/04_market_analysis/01_global_market_comparison.md](deliverables/04_market_analysis/01_global_market_comparison.md)
+- [deliverables/06_appendices/02_phase_status.md](deliverables/06_appendices/02_phase_status.md) — build and rewrite phase tracker
+- [deliverables/06_appendices/12_writing_standard.md](deliverables/06_appendices/12_writing_standard.md) — readability standard

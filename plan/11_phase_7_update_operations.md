@@ -62,11 +62,11 @@ Use three layers.
 
 ## Folder and File Outputs
 ### Core outputs
-- `06_appendices/update_policy.md`
-- `06_appendices/regulatory_watchlist.md`
-- `06_appendices/pathway_watchlist.md`
-- `06_appendices/change_log.md`
-- `06_appendices/versioning_rules.md`
+- `06_appendices/08_update_policy.md`
+- `06_appendices/05_regulatory_watchlist.md`
+- `06_appendices/06_pathway_watchlist.md`
+- `06_appendices/07_change_log.md`
+- `06_appendices/09_versioning_rules.md`
 
 ### Optional helper files if needed
 - `06_appendices/quarterly_update_brief_template.md`
@@ -77,7 +77,7 @@ These helper files should be added if the team expects formal recurring reviews 
 ## Operations File Design
 Each Phase 7 file should read like a maintenance playbook.
 
-### Required structure for `update_policy.md`
+### Required structure for `08_update_policy.md`
 1. Title
 2. Last updated
 3. Why updates matter
@@ -88,7 +88,7 @@ Each Phase 7 file should read like a maintenance playbook.
 8. Ownership model
 9. Related files
 
-### Required structure for `regulatory_watchlist.md` and `pathway_watchlist.md`
+### Required structure for `05_regulatory_watchlist.md` and `06_pathway_watchlist.md`
 1. Title
 2. Last updated
 3. How to use the watchlist
@@ -97,7 +97,7 @@ Each Phase 7 file should read like a maintenance playbook.
 6. Priority notes
 7. Related files
 
-### Required structure for `change_log.md`
+### Required structure for `07_change_log.md`
 1. Title
 2. Last updated
 3. How changes are recorded

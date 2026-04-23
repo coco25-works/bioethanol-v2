@@ -65,15 +65,15 @@ Wave 1 files should be completed first because they anchor the most important cr
 ## Folder and File Outputs
 ### Core outputs
 - `03_biofuel_reference/README.md`
-- `03_biofuel_reference/biodiesel_and_fame.md`
-- `03_biofuel_reference/renewable_diesel_hvo.md`
-- `03_biofuel_reference/bioethanol.md`
-- `03_biofuel_reference/biomethanol.md`
-- `03_biofuel_reference/biogas_and_rng.md`
-- `03_biofuel_reference/certifications_and_chain_of_custody.md`
-- `03_biofuel_reference/saf_linked_pathways.md`
-- `03_biofuel_reference/waste_oils_and_residues.md`
-- `03_biofuel_reference/lignocellulosic_feedstocks.md`
+- `03_biofuel_reference/03_biodiesel_and_fame.md`
+- `03_biofuel_reference/04_renewable_diesel_hvo.md`
+- `03_biofuel_reference/05_bioethanol.md`
+- `03_biofuel_reference/08_biomethanol.md`
+- `03_biofuel_reference/09_biogas_and_rng.md`
+- `03_biofuel_reference/01_certifications_and_chain_of_custody.md`
+- `03_biofuel_reference/07_saf_linked_pathways.md`
+- `03_biofuel_reference/02_waste_oils_and_residues.md`
+- `03_biofuel_reference/06_lignocellulosic_feedstocks.md`
 
 ### Optional helper files if needed
 - one short methodology note in this folder if the team needs an explicit explanation of how pathway grouping decisions were made;

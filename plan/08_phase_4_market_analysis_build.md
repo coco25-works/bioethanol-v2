@@ -67,18 +67,18 @@ Wave 1 should be completed first because it creates the core analytical model th
 ## Folder and File Outputs
 ### Core outputs
 - `04_market_analysis/README.md`
-- `04_market_analysis/global_market_comparison.md`
-- `04_market_analysis/demand_mechanisms_by_market.md`
-- `04_market_analysis/supply_potential_by_region.md`
-- `04_market_analysis/feedstock_to_market_mapping.md`
-- `04_market_analysis/regulatory_asymmetry_matrix.md`
-- `04_market_analysis/high_priority_opportunity_ranking.md`
-- `04_market_analysis/wave_1_micro_opportunity_log.md`
-- `04_market_analysis/eu_demand_analysis.md`
-- `04_market_analysis/us_demand_analysis.md`
-- `04_market_analysis/uk_demand_analysis.md`
-- `04_market_analysis/japan_demand_analysis.md`
-- `04_market_analysis/southeast_asia_supply_base.md`
+- `04_market_analysis/01_global_market_comparison.md`
+- `04_market_analysis/04_demand_mechanisms_by_market.md`
+- `04_market_analysis/12_supply_potential_by_region.md`
+- `04_market_analysis/03_feedstock_to_market_mapping.md`
+- `04_market_analysis/05_regulatory_asymmetry_matrix.md`
+- `04_market_analysis/02_high_priority_opportunity_ranking.md`
+- `04_market_analysis/06_wave_1_micro_opportunity_log.md`
+- `04_market_analysis/07_eu_demand_analysis.md`
+- `04_market_analysis/08_us_demand_analysis.md`
+- `04_market_analysis/09_uk_demand_analysis.md`
+- `04_market_analysis/10_japan_demand_analysis.md`
+- `04_market_analysis/11_southeast_asia_supply_base.md`
 
 ### Optional helper files if needed
 - one methodology file explaining the ranking framework if the main outputs become too dense;
@@ -389,7 +389,7 @@ Phase close review
 - Start with the shared comparative outputs
 - Use consistent dimensions and tables across files
 - Include one diagram and one worked example in every Wave 1 file
-- Draft `regulatory_asymmetry_matrix.md` and `wave_1_micro_opportunity_log.md` before finalizing the opportunity ranking
+- Draft `05_regulatory_asymmetry_matrix.md` and `06_wave_1_micro_opportunity_log.md` before finalizing the opportunity ranking
 
 ### Step 4. Draft Wave 2 focused files
 - Use the Wave 1 framework to explain why the highest-priority markets look the way they do

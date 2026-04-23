@@ -67,28 +67,28 @@ Wave 1 should be completed first because it establishes the main strategic posit
 ## Folder and File Outputs
 ### Core outputs
 - `05_strategy_outputs/README.md`
-- `05_strategy_outputs/executive_strategy_summary.md`
-- `05_strategy_outputs/se_asia_producer_opportunity_map.md`
-- `05_strategy_outputs/pathway_strategy/biodiesel_and_hvo_strategy.md`
-- `05_strategy_outputs/pathway_strategy/bioethanol_strategy.md`
-- `05_strategy_outputs/pathway_strategy/biomethanol_strategy.md`
-- `05_strategy_outputs/pathway_strategy/biogas_rng_strategy.md`
-- `05_strategy_outputs/market_entry_strategy/eu_market_entry.md`
-- `05_strategy_outputs/market_entry_strategy/us_market_entry.md`
-- `05_strategy_outputs/market_entry_strategy/uk_market_entry.md`
-- `05_strategy_outputs/market_entry_strategy/japan_market_entry.md`
-- `05_strategy_outputs/market_entry_strategy/singapore_hub_strategy.md`
-- `05_strategy_outputs/producer_type_strategy/plantation_linked_producer.md`
-- `05_strategy_outputs/producer_type_strategy/waste_aggregator.md`
-- `05_strategy_outputs/producer_type_strategy/novel_feedstock_developer.md`
-- `05_strategy_outputs/producer_type_strategy/gas_and_effluent_operator.md`
-- `05_strategy_outputs/partnerships/target_counterparties.md`
-- `05_strategy_outputs/partnerships/certification_requirements.md`
-- `05_strategy_outputs/partnerships/jv_and_tolling_models.md`
-- `05_strategy_outputs/partnerships/offtake_model_options.md`
-- `05_strategy_outputs/risk_and_no_go/key_risks.md`
-- `05_strategy_outputs/risk_and_no_go/low_priority_markets.md`
-- `05_strategy_outputs/risk_and_no_go/no_go_conditions.md`
+- `05_strategy_outputs/01_executive_strategy_summary.md`
+- `05_strategy_outputs/02_se_asia_producer_opportunity_map.md`
+- `05_strategy_outputs/pathway_strategy/01_biodiesel_and_hvo_strategy.md`
+- `05_strategy_outputs/pathway_strategy/02_bioethanol_strategy.md`
+- `05_strategy_outputs/pathway_strategy/03_biomethanol_strategy.md`
+- `05_strategy_outputs/pathway_strategy/04_biogas_rng_strategy.md`
+- `05_strategy_outputs/market_entry_strategy/01_eu_market_entry.md`
+- `05_strategy_outputs/market_entry_strategy/03_us_market_entry.md`
+- `05_strategy_outputs/market_entry_strategy/02_uk_market_entry.md`
+- `05_strategy_outputs/market_entry_strategy/04_japan_market_entry.md`
+- `05_strategy_outputs/market_entry_strategy/05_singapore_hub_strategy.md`
+- `05_strategy_outputs/producer_type_strategy/02_plantation_linked_producer.md`
+- `05_strategy_outputs/producer_type_strategy/01_waste_aggregator.md`
+- `05_strategy_outputs/producer_type_strategy/04_novel_feedstock_developer.md`
+- `05_strategy_outputs/producer_type_strategy/03_gas_and_effluent_operator.md`
+- `05_strategy_outputs/partnerships/01_target_counterparties.md`
+- `05_strategy_outputs/partnerships/04_certification_requirements.md`
+- `05_strategy_outputs/partnerships/03_jv_and_tolling_models.md`
+- `05_strategy_outputs/partnerships/02_offtake_model_options.md`
+- `05_strategy_outputs/risk_and_no_go/01_key_risks.md`
+- `05_strategy_outputs/risk_and_no_go/03_low_priority_markets.md`
+- `05_strategy_outputs/risk_and_no_go/02_no_go_conditions.md`
 
 ### Optional helper files if needed
 - `05_strategy_outputs/strategy_method.md`

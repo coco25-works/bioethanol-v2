@@ -74,19 +74,19 @@ Only jurisdictions marked `Ready` or strong `Partial` at the end of Phase 1 shou
 ## Folder and File Outputs
 ### Core outputs
 - `02_country_reference/README.md`
-- `02_country_reference/eu/eu_level.md`
-- `02_country_reference/eu/germany.md`
-- `02_country_reference/eu/netherlands.md`
-- `02_country_reference/eu/france.md`
-- `02_country_reference/americas/united_states_federal.md`
-- `02_country_reference/americas/california.md`
-- `02_country_reference/americas/brazil.md`
-- `02_country_reference/apac/japan.md`
-- `02_country_reference/apac/singapore.md`
-- `02_country_reference/apac/china.md`
-- `02_country_reference/apac/indonesia.md`
-- `02_country_reference/apac/malaysia.md`
-- `02_country_reference/apac/thailand.md`
+- `02_country_reference/eu/01_eu_level.md`
+- `02_country_reference/eu/02_germany.md`
+- `02_country_reference/eu/03_netherlands.md`
+- `02_country_reference/eu/04_france.md`
+- `02_country_reference/americas/01_united_states_federal.md`
+- `02_country_reference/americas/02_california.md`
+- `02_country_reference/americas/03_brazil.md`
+- `02_country_reference/apac/01_japan.md`
+- `02_country_reference/apac/02_singapore.md`
+- `02_country_reference/apac/03_china.md`
+- `02_country_reference/apac/04_indonesia.md`
+- `02_country_reference/apac/05_malaysia.md`
+- `02_country_reference/apac/06_thailand.md`
 
 ### Optional helper files if needed
 - regional `README.md` files mirroring the source-register structure;

@@ -69,20 +69,20 @@ The reason for this order is simple: Phase 2, 3, and 4 depend most heavily on th
 ## Folder and File Outputs
 ### Core outputs
 - `01_source_register/README.md`
-- `01_source_register/eu/eu_level.md`
-- `01_source_register/eu/germany.md`
-- `01_source_register/eu/netherlands.md`
-- `01_source_register/eu/france.md`
-- `01_source_register/americas/united_states_federal.md`
-- `01_source_register/americas/california.md`
-- `01_source_register/americas/brazil.md`
-- `01_source_register/apac/japan.md`
-- `01_source_register/apac/singapore.md`
-- `01_source_register/apac/china.md`
-- `01_source_register/apac/indonesia.md`
-- `01_source_register/apac/malaysia.md`
-- `01_source_register/apac/thailand.md`
-- `06_appendices/source_gap_log.md`
+- `01_source_register/eu/01_eu_level.md`
+- `01_source_register/eu/02_germany.md`
+- `01_source_register/eu/03_netherlands.md`
+- `01_source_register/eu/04_france.md`
+- `01_source_register/americas/01_united_states_federal.md`
+- `01_source_register/americas/02_california.md`
+- `01_source_register/americas/03_brazil.md`
+- `01_source_register/apac/01_japan.md`
+- `01_source_register/apac/02_singapore.md`
+- `01_source_register/apac/03_china.md`
+- `01_source_register/apac/04_indonesia.md`
+- `01_source_register/apac/05_malaysia.md`
+- `01_source_register/apac/06_thailand.md`
+- `06_appendices/03_source_gap_log.md`
 
 ### Optional helper files if needed
 - `01_source_register/eu/README.md`

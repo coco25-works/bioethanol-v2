@@ -63,11 +63,11 @@ Use three passes in order.
 
 ## Folder and File Outputs
 ### Core outputs
-- `06_appendices/glossary.md`
-- `06_appendices/acronyms.md`
-- `06_appendices/legal_citation_index.md`
-- `06_appendices/source_gap_log.md`
-- `06_appendices/final_qa_checklist.md`
+- `06_appendices/10_glossary.md`
+- `06_appendices/11_acronyms.md`
+- `06_appendices/04_legal_citation_index.md`
+- `06_appendices/03_source_gap_log.md`
+- `06_appendices/01_final_qa_checklist.md`
 
 ### Optional helper files if needed
 - `06_appendices/interpretive_cautions.md`
@@ -78,7 +78,7 @@ These optional files should be added if translation issues, authority conflicts,
 ## Appendix and QA File Design
 Each Phase 6 file should read like an operational support document for the whole repository.
 
-### Required structure for `final_qa_checklist.md`
+### Required structure for `01_final_qa_checklist.md`
 1. Title
 2. Last updated
 3. Purpose of the QA pass
@@ -90,7 +90,7 @@ Each Phase 6 file should read like an operational support document for the whole
 9. Signoff status
 10. Related files
 
-### Required structure for `legal_citation_index.md`
+### Required structure for `04_legal_citation_index.md`
 1. Title
 2. Last updated
 3. How to use this index
@@ -99,7 +99,7 @@ Each Phase 6 file should read like an operational support document for the whole
 6. Notes on translations or unofficial text where relevant
 7. Related files
 
-### Required structure for `glossary.md` and `acronyms.md`
+### Required structure for `10_glossary.md` and `11_acronyms.md`
 1. Title
 2. Last updated
 3. How to use this file
