@@ -22,6 +22,10 @@ By the end of Phase 2, a reader should be able to open any jurisdiction file and
 - which buyer or counterparty classes matter commercially;
 - what certification and traceability gates matter;
 - what import, local-preference, or trade constraints matter;
+- what timing rules, transition windows, or grandfathering treatment matter;
+- what administrative or implementation friction affects practical access;
+- who actually captures the compliance value, certificate value, or premium under the regime;
+- which small legal differences should be compared against other Wave 1 markets;
 - how relevant the market is to a Southeast Asia-based producer.
 
 Phase 2 is complete only when these answers are presented clearly, consistently, and with traceability back to Phase 1 sources.
@@ -92,6 +96,8 @@ Only jurisdictions marked `Ready` or strong `Partial` at the end of Phase 1 shou
 Each jurisdiction file should read like a compact market operating manual.
 
 ### Required structure
+See `04_file_templates.md` for the canonical section list. Key sections:
+
 1. Title
 2. Last updated
 3. Why this market matters
@@ -102,17 +108,21 @@ Each jurisdiction file should read like a compact market operating manual.
 8. Eligible pathways
 9. Restricted / capped / conditional pathways
 10. Demand mechanism
-11. Obligated parties / buyer classes
-12. Buyer / counterparty classes
+11. Obligated parties / buyer classes — who must comply under the regime (legal obligation)
+12. Buyer / counterparty classes — commercial actors a BD team would encounter (obligated suppliers, refiners, blenders, traders, aggregators, aviation or maritime buyers, compliance-value intermediaries)
 13. Certification and chain-of-custody requirements
 14. Import / trade / local-preference considerations
-15. Supply-side context
-16. Southeast Asia relevance
-17. Commercial decision criteria
-18. What would change this conclusion
-19. Worked example
-20. Key source references
-21. Related files
+15. Temporal rules and transition windows
+16. Implementation and administrative friction
+17. Supply-side context
+18. Southeast Asia relevance
+19. Value-capture mechanics
+20. Priority legal asymmetries for cross-market comparison
+21. Commercial decision criteria
+22. What would change this conclusion
+23. Worked example
+24. Key source references
+25. Related files
 
 ### Narrative opening style
 Open with why the market matters, what kind of compliance logic it uses, and how the team should read the file.
@@ -199,6 +209,22 @@ Explain the practical gatekeepers. This section should not yet become a full cer
 ### Import / trade / local-preference considerations
 Clarify whether imported material can realistically access the regime, and under what conditions.
 
+### Temporal rules and transition windows
+Capture the small timing details that can create or destroy opportunity:
+- effective dates;
+- phase-ins;
+- transition windows;
+- grandfathering;
+- sunset treatment.
+
+### Implementation and administrative friction
+Explain the practical barriers that can make a nominally open market hard to access:
+- registry access;
+- importer registration;
+- audit burden;
+- documentary failure consequences;
+- verifier or administrator controls.
+
 ### Supply-side context
 Provide concise context on local production base, feedstock advantage, or import dependence where it matters for interpreting the market.
 
@@ -209,6 +235,23 @@ End the core analytical sections with a short practical lens:
 - Under which constraints?
 
 This should remain descriptive, not strategic.
+
+### Value-capture mechanics
+State who likely captures the market value created by the regime:
+- producer;
+- trader or aggregator;
+- obligated supplier;
+- credit or certificate holder;
+- intermediary with documentary or registry control.
+
+### Priority legal asymmetries for cross-market comparison
+Use this section to surface the small differences that should be compared against other Wave 1 markets.
+
+For every major asymmetry, state:
+- the rule difference;
+- the comparable market;
+- the commercial effect;
+- the proof or capability implication.
 
 ### Commercial decision criteria
 List the conditions a commercial team would use to decide whether the market merits deeper pursuit:
@@ -294,6 +337,7 @@ Wave close review
 - Start with the highest-value, best-sourced markets
 - Keep the same section order across files
 - Include diagrams and one worked example per major file
+- In every Wave 1 file, require at least one `similar regime, different outcome` asymmetry and one `nominally eligible, practically hard` issue
 
 ### Step 3. Draft Wave 2 using explicit confidence limits
 - If a jurisdiction is still source-thin, say so plainly
@@ -310,6 +354,7 @@ Wave close review
 - confirm SE Asia relevance is present but not overextended into strategy.
 - confirm buyer / counterparty classes are explicit enough for downstream strategy work.
 - confirm commercial decision criteria are present without turning the file into a recommendation memo.
+- confirm timing rules, administrative friction, value-capture mechanics, and priority legal asymmetries are explicit in every Wave 1 file.
 
 ## Acceptance Criteria
 Phase 2 is accepted only when all of the following are true:
@@ -320,6 +365,7 @@ Phase 2 is accepted only when all of the following are true:
 - all pathway-treatment claims trace back to Phase 1;
 - all files include a concise SE Asia relevance section;
 - all files include buyer / counterparty classes and commercial decision criteria;
+- every Wave 1 file includes temporal rules, implementation friction, value-capture mechanics, and a priority legal asymmetry section;
 - no file includes global rankings or final strategy recommendations.
 
 ## Important Interface and Template Additions
@@ -329,6 +375,7 @@ These conventions become mandatory in Phase 2:
 - Add one `Worked example` section in every major Wave 1 file.
 - Add a `Related files` section linking back to the corresponding Phase 1 source file.
 - Add `Buyer / counterparty classes`, `Commercial decision criteria`, and `What would change this conclusion` to every country-reference file.
+- Add `Temporal rules and transition windows`, `Implementation and administrative friction`, `Value-capture mechanics`, and `Priority legal asymmetries for cross-market comparison` to every country-reference file.
 - Use the same section ordering across jurisdictions unless a specific market has a documented reason to differ.
 
 ## Risks and Failure Modes
@@ -386,4 +433,3 @@ Expected:
 - Phase 1 is the governing evidence baseline for Phase 2 drafting.
 - The writing-style guide applies fully here: diagrams before tables, narrative openings, insight after structured data, and readable transitions are required.
 - Wave 1 files are expected to be materially richer than Wave 2 files at first pass.
-</proposed_plan>市场部联系 to=functions.exec_command  天天中彩票app 彩娱乐彩票िद=json

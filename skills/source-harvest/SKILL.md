@@ -12,14 +12,16 @@ Use this skill when the output is a source register or evidence log, not an inte
 2. Classify each source by authority type.
 3. Capture consistent metadata.
 4. Flag translation and supersession risks.
-5. Log open gaps instead of guessing.
-6. Record readiness for the next phase.
+5. Flag asymmetry-relevant rules for later comparison.
+6. Log open gaps instead of guessing.
+7. Record readiness for the next phase.
 
 ## Core Rules
 - Primary law first.
 - Guidance explains implementation but does not override statute.
 - Official data is for targets, quotas, and program facts.
 - Secondary context should never carry core legal meaning.
+- Capture timing rules, proof mechanics, administrative access, and value-capture clues at the source stage when they appear in authority text.
 
 ## Use These References
 - Read [references/source-metadata-schema.md](references/source-metadata-schema.md) for required fields.

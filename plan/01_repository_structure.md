@@ -6,6 +6,8 @@ Organize the repository so a reader can enter the material from three directions
 - by fuel pathway;
 - by strategy question.
 
+The same structure must also make it easy to find legal asymmetries across similar-looking markets, especially in the Wave 1 markets where the deepest cross-market delta work happens first.
+
 For the primary commercial / BD audience, the strategy route must answer five questions quickly:
 - which market;
 - which pathway;
@@ -13,10 +15,15 @@ For the primary commercial / BD audience, the strategy route must answer five qu
 - under what gating conditions;
 - and under what stop conditions.
 
+For asymmetry-focused work, the repository must also answer:
+- what exact rule difference creates the opportunity;
+- whether the difference is legal, administrative, proof-related, or temporal;
+- who captures the value created by that difference.
+
 ## Target Layout
 ```text
 /plan
-/00_program_requirements
+/00_program_requirements          ← content distributed across plan files (00_overview.md, 04_file_templates.md, 01_repository_structure.md)
 /01_source_register
   /eu
   /americas
@@ -52,6 +59,7 @@ For the primary commercial / BD audience, the strategy route must answer five qu
 ### Market analysis
 - One file per analytical question.
 - Purpose: compare markets, demand mechanisms, and supply fit.
+- Include dedicated outputs for legal-asymmetry comparison where small rule differences materially change opportunity.
 
 ### Strategy outputs
 - One file per strategy subject.

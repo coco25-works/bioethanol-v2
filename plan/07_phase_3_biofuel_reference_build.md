@@ -19,6 +19,7 @@ By the end of Phase 3, the team should be able to open any pathway file and unde
 - which major markets reward the pathway and under what conditions;
 - where the pathway is capped, restricted, disadvantaged, or subject to proof burdens;
 - what certifications, documentation, and chain-of-custody conditions matter;
+- where small legal differences in definitions, proof models, or route treatment change market access materially;
 - how the pathway fits or does not fit Southeast Asia-origin supply;
 - which route configurations and buyer types matter most commercially;
 - which country files to consult for jurisdiction-level detail.
@@ -82,20 +83,23 @@ Wave 1 files should be completed first because they anchor the most important cr
 Each pathway file should read like a cross-market operating map for that pathway.
 
 ### Required structure
+See `04_file_templates.md` for the canonical section list. Key sections:
+
 1. Title
 2. Last updated
 3. Why this pathway matters
 4. Pathway landscape diagram
-5. Feedstock and conversion-route scope
+5. Feedstock and conversion route scope
 6. Regulatory demand by market
 7. Eligibility and restrictions by market
 8. Certification and traceability requirements
 9. Route competitiveness and proof burden
-10. Southeast Asia supply implications
-11. Worked example
-12. Key source trail
-13. Related country files
-14. Related pathway files
+10. Cross-market asymmetry map
+11. Southeast Asia supply implications
+12. Worked example
+13. Key source trail
+14. Related country files
+15. Related pathway files
 
 ### Narrative opening style
 Open with why the pathway matters globally, where the pathway is creating the most confusion or opportunity, and how the team should use the file.
@@ -197,6 +201,16 @@ Explain the commercial tradeoffs that affect pathway usefulness:
 - where proof burdens materially reduce attractiveness;
 - where documentation complexity changes the viable buyer class;
 - what route assumptions downstream strategy files are allowed to make.
+
+### Cross-market asymmetry map
+State the pathway-level differences that matter most across markets:
+- definition boundary differences;
+- route-classification differences;
+- waste or residue proof asymmetries;
+- certification-recognition asymmetries;
+- chain-of-custody model differences;
+- default versus actual GHG treatment;
+- co-processing or pathway-approval treatment.
 
 ### Southeast Asia supply implications
 This section should answer:
@@ -311,6 +325,7 @@ Wave close review
 - Start with the pathway families most likely to anchor downstream market analysis
 - Use the same section order across files
 - Include one diagram and one worked example in every Wave 1 file
+- In every Wave 1 file, require one cross-market asymmetry map that compares at least two Wave 1 markets directly
 
 ### Step 3. Draft enabling and special-topic files
 - Build the certifications file early enough that other pathway files can reference it consistently
@@ -327,6 +342,7 @@ Wave close review
 - confirm every pathway claim resolves back to country files;
 - confirm the same market is not described inconsistently across pathway files;
 - confirm the Southeast Asia lens remains analytical, not prescriptive.
+- confirm the same asymmetry is not described inconsistently across pathway files and country files.
 
 ## Acceptance Criteria
 Phase 3 is accepted only when all of the following are true:
@@ -334,6 +350,7 @@ Phase 3 is accepted only when all of the following are true:
 - every Wave 1 file includes a narrative opening, a pathway diagram, and one worked example;
 - every file explains both market demand and pathway treatment, not just definitions;
 - every Wave 1 file explains route competitiveness and proof burden clearly enough for downstream strategy use;
+- every Wave 1 file includes a cross-market asymmetry map that makes subtle legal differences visible;
 - every pathway file links back to the relevant country-reference files;
 - recurring certification issues are handled consistently across files;
 - no file includes market rankings or entry recommendations.
@@ -345,6 +362,7 @@ These conventions become mandatory in Phase 3:
 - Add one `Worked example` section in every Wave 1 file.
 - Add a `Related country files` section and a `Related pathway files` section.
 - Add `Route competitiveness and proof burden` to every pathway file.
+- Add `Cross-market asymmetry map` to every pathway file.
 - Use a shared comparison vocabulary across all pathway files.
 
 ## Risks and Failure Modes

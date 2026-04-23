@@ -1,33 +1,35 @@
-# Global Bio-Based Fuels Research Program
+# Global Bio-Based Fuels Research and Strategy Program
 
-This repository is the planning and capability foundation for a global bio-based fuels reference and strategy program. It is designed to support evidence-first research on regulatory demand, supply potential, and market-entry strategy across biodiesel, bioethanol, biomethanol, biogas/RNG, renewable diesel/HVO, and adjacent pathways where policy relevance matters.
+This repository is a complete, populated research and strategy system for global bio-based fuels. It covers regulatory demand, supply potential, legal asymmetries, and market-entry strategy across biodiesel, bioethanol, biomethanol, biogas/RNG, renewable diesel/HVO, and adjacent pathways.
 
-The current repository state is deliberate: it contains the execution framework, writing system, and reusable skills needed to build the research corpus, but it does not yet contain the completed country, pathway, analysis, or strategy deliverables.
+The deliverables have been rewritten for mixed-team readability so they work for BD, compliance, operations, finance, leadership, and expert reviewers.
 
 ## Current State
 
-This repo currently contains:
-- a full phased implementation plan
-- a reusable local skill suite for planning, writing, analysis, diagrams, source harvest, and QA
-- a project handoff document with learnings and next-person instructions
-
-This repo does not yet contain:
-- populated source-register files
-- completed country or pathway references
-- completed market-analysis outputs
-- completed strategy deliverables
+This repo is **complete**. It contains:
+- a full phased implementation plan (`plan/`)
+- a reusable skill suite (`skills/`)
+- populated source registers for 13 jurisdictions (`deliverables/01_source_register/`)
+- country reference files for 13 jurisdictions (`deliverables/02_country_reference/`)
+- pathway reference files for 9 biofuel pathways (`deliverables/03_biofuel_reference/`)
+- market analysis files including rankings, mapping, and asymmetry comparisons (`deliverables/04_market_analysis/`)
+- strategy outputs including executive summary, pathway strategies, market-entry strategies, and risk/no-go files (`deliverables/05_strategy_outputs/`)
+- QA, glossary, acronyms, watchlists, and update operations (`deliverables/06_appendices/`)
+- a plan review report (`deliverables/plan-review.md`)
+- readability rewrite across all files for mixed-team use
 
 ## What This Repository Is For
 
-The end-state is a layered document system for a commercial and business-development audience that needs to answer questions like:
+The repository answers questions like:
 - Which regulations create demand in each target market?
 - Which fuels and feedstocks are eligible, capped, restricted, or conditional?
 - Which buyer classes are actually pulled into the market by regulation?
 - Where is supply structurally short, and where could a Southeast Asia-based producer compete?
 - What certifications, proof burdens, and chain-of-custody requirements gate access?
+- Where do small legal differences create outsized access, timing, or premium opportunities?
 - Which opportunities should be pursued, monitored, or rejected?
 
-The repository is structured so those answers are built in sequence rather than guessed downstream.
+## How The Repository Is Built
 
 ```text
 SOURCE REGISTER
@@ -40,134 +42,65 @@ MARKET ANALYSIS
       ↓
 STRATEGY OUTPUTS
       ↓
-QA / UPDATE OPERATIONS
+APPENDICES AND INDEXES
 ```
+
+Each layer builds on the layer below it. Strategy traces back to analysis, analysis traces back to reference, and reference traces back to source.
 
 ## Repository Map
 
 ### `plan/`
-The implementation specification for the whole program.
-
-Start here:
-- [plan/README.md](plan/README.md)
-- [plan/00_overview.md](plan/00_overview.md)
-- [plan/02_phased_execution.md](plan/02_phased_execution.md)
-- [plan/05_phase_1_source_harvest.md](plan/05_phase_1_source_harvest.md)
-- [plan/13_strategy_usefulness_checklist.md](plan/13_strategy_usefulness_checklist.md)
+The implementation specification for the whole program. 15 files covering scope, structure, phasing, templates, and QA.
 
 ### `skills/`
-Reusable local skills that support repeatable work across this project and others.
+7 reusable local skills with 21 reference files for planning, writing, analysis, diagrams, source harvest, and QA.
 
-Included skills:
-- `reference-planning`
-- `reference-writing-style`
-- `strategy-writing`
-- `diagram-drawing`
-- `source-harvest`
-- `market-analysis`
-- `evidence-traceability-qa`
+### `deliverables/`
+All the research and strategy outputs. See `deliverables/` for the complete deliverable set.
 
 ### `project.md`
-The detailed handoff document. It explains what has already been built, what was learned while shaping the system, what the next person should read first, and what should be executed next.
+The handoff document explaining what was built and what was learned.
 
 ## Program Structure
 
-The repository is planned as a seven-phase build:
+The repository was built as a seven-phase program:
 
-1. Program design
-2. Source harvest
-3. Country reference build
-4. Biofuel reference build
-5. Market analysis build
-6. Strategy output build
-7. QA, consolidation, and update operations
+1. Program design (done)
+2. Source harvest (done)
+3. Country reference build (done)
+4. Biofuel reference build (done)
+5. Market analysis build (done)
+6. Strategy output build (done)
+7. QA, consolidation, and update operations (done)
 
-The operating rule is strict:
-- evidence first
-- analysis second
-- strategy last
+All seven phases are built and the final consistency and status-reconciliation pass is complete.
 
-That sequencing is what keeps strategy outputs useful instead of speculative.
+## Core Finding
 
-## Guiding Principles
+**Waste-based HVO/FAME from Southeast Asia to Germany and the Netherlands is the strongest near-term opportunity.** Feedstock waste documentation and ISCC/RSB certification are the critical enablers.
 
-- Use primary law first for legal meaning.
-- Use official guidance for implementation detail.
-- Use official data first for market facts and compliance context.
-- Separate legal fact, agency interpretation, market observation, and strategy inference.
-- Use `eligible`, `restricted`, `capped`, and `conditional` instead of collapsing everything into `allowed` or `banned`.
-- Make buyer logic, decision criteria, disqualifiers, and stop conditions explicit before making recommendations.
-- Treat diagrams as part of the information system, not decoration.
-- Keep every recommendation traceable back to analysis, references, and sources.
+## How To Start Reading
 
-## How To Start
+If you are new to this project:
 
-If you are picking this repository up for execution, use this reading order:
-
-1. [project.md](project.md)
-2. [plan/README.md](plan/README.md)
-3. [plan/00_overview.md](plan/00_overview.md)
-4. [plan/02_phased_execution.md](plan/02_phased_execution.md)
-5. [plan/04_file_templates.md](plan/04_file_templates.md)
-6. [plan/12_plan_review_matrix.md](plan/12_plan_review_matrix.md)
-7. [plan/13_strategy_usefulness_checklist.md](plan/13_strategy_usefulness_checklist.md)
-
-Then begin actual execution in this order:
-
-1. Create the target content folders and file shells defined in the repository structure plan.
-2. Execute Phase 1 source harvest before drafting references.
-3. Build country and pathway references only after the source register is materially complete.
-4. Build market analysis on top of validated references.
-5. Build strategy outputs only after the analysis layer is ready.
-
-## Skill Suite
-
-The local skills are part of the operating model for this repo.
-
-Use them like this:
-- `reference-planning` for structure, phasing, and file decomposition
-- `reference-writing-style` for readable reference, analysis, and strategy prose
-- `strategy-writing` for recommendation logic, buyer logic, and no-go framing
-- `diagram-drawing` for one-off diagrams and connected diagram series
-- `source-harvest` for authority-first source logging and gap handling
-- `market-analysis` for comparison logic, ranking, and disqualifier framing
-- `evidence-traceability-qa` for traceability checks, consistency review, and maintenance discipline
-
-## Immediate Next Deliverables
-
-The next real outputs to create are:
-- `01_source_register/README.md`
-- one source-register file per target jurisdiction
-- `06_appendices/source_gap_log.md`
-
-Until those exist, this repo should be understood as ready for execution, not as completed research.
-
-## Why The Strategy Layer Matters
-
-This project is not just a legal-reference exercise. The planning system has been strengthened so the eventual strategy outputs are commercially useful, not just technically correct.
-
-That means the final strategy layer is expected to include:
-- buyer and counterparty logic
-- timing and `Why now`
-- market-pathway prioritization
-- gating requirements
-- better alternatives
-- disqualifier logic
-- stop conditions
-- evidence confidence
-
-The key checkpoint for that is [plan/13_strategy_usefulness_checklist.md](plan/13_strategy_usefulness_checklist.md).
-
-## Key Files
-
-- [project.md](project.md)
-- [plan/README.md](plan/README.md)
-- [plan/05_phase_1_source_harvest.md](plan/05_phase_1_source_harvest.md)
-- [plan/09_phase_5_strategy_output_build.md](plan/09_phase_5_strategy_output_build.md)
-- [plan/13_strategy_usefulness_checklist.md](plan/13_strategy_usefulness_checklist.md)
+1. Start with `deliverables/START_HERE.md`
+2. Then read `deliverables/summary_report_20_page.md`
+3. Then read `deliverables/05_strategy_outputs/executive_strategy_summary.md`
+4. Then read `deliverables/05_strategy_outputs/se_asia_producer_opportunity_map.md`
+5. Then read `deliverables/04_market_analysis/global_market_comparison.md`
+6. Then read the country reference files for your market of interest
+7. Then read the pathway reference files for your pathway of interest
 
 ## Status
 
-This repository is complete as a planning and capability foundation.
+This repository is complete as both a populated research deliverable set and a readable mixed-team decision-support system.
 
-It is not yet complete as a populated research and strategy deliverable set.
+## Key Files
+
+- [deliverables/START_HERE.md](deliverables/START_HERE.md)
+- [deliverables/summary_report_20_page.md](deliverables/summary_report_20_page.md)
+- [deliverables/05_strategy_outputs/executive_strategy_summary.md](deliverables/05_strategy_outputs/executive_strategy_summary.md)
+- [deliverables/05_strategy_outputs/se_asia_producer_opportunity_map.md](deliverables/05_strategy_outputs/se_asia_producer_opportunity_map.md)
+- [deliverables/04_market_analysis/global_market_comparison.md](deliverables/04_market_analysis/global_market_comparison.md)
+- [deliverables/06_appendices/phase_status.md](deliverables/06_appendices/phase_status.md) — build and rewrite phase tracker
+- [deliverables/06_appendices/writing_standard.md](deliverables/06_appendices/writing_standard.md) — readability standard

@@ -7,5 +7,9 @@ Common dimensions:
 - buyer pull intensity
 - supply scarcity or import opening
 - fit for the origin base, producer profile, or supply source in scope
+- legal definition and classification asymmetry
+- timing windows, grandfathering, and sunset treatment
+- implementation and administrative friction
+- value-capture mechanics by actor
 
 Use the same dimensions across related files whenever possible.

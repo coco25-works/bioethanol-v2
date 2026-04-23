@@ -20,6 +20,8 @@ By the end of Phase 4, the team should be able to answer:
 - where domestic supply is likely insufficient or constrained;
 - where imports or external advanced feedstocks are likely to matter;
 - how Southeast Asia-origin pathways map onto those demand centers;
+- which small legal differences create outsized opportunity or disqualifier effects across otherwise similar markets;
+- which opportunities are created by timing windows, proof recognition, administrative design, or value-capture asymmetry rather than headline demand size;
 - which markets deserve priority attention in the final strategy phase.
 - which combinations should be disqualified even if top-line demand looks strong.
 
@@ -69,7 +71,9 @@ Wave 1 should be completed first because it creates the core analytical model th
 - `04_market_analysis/demand_mechanisms_by_market.md`
 - `04_market_analysis/supply_potential_by_region.md`
 - `04_market_analysis/feedstock_to_market_mapping.md`
+- `04_market_analysis/regulatory_asymmetry_matrix.md`
 - `04_market_analysis/high_priority_opportunity_ranking.md`
+- `04_market_analysis/wave_1_micro_opportunity_log.md`
 - `04_market_analysis/eu_demand_analysis.md`
 - `04_market_analysis/us_demand_analysis.md`
 - `04_market_analysis/uk_demand_analysis.md`
@@ -89,15 +93,16 @@ Each analysis file should read like a decision-support document, not a data dump
 3. Analytical question
 4. Analytical framework diagram
 5. Market comparison view
-6. Key findings
-7. Demand-side implications
-8. Supply-side implications
-9. Southeast Asia producer implications
-10. Commercial attractiveness dimensions
-11. Disqualifier conditions
-12. Worked example or scenario
-13. Supporting references
-14. Related files
+6. Regulatory asymmetry view
+7. Key findings
+8. Demand-side implications
+9. Supply-side implications
+10. Southeast Asia producer implications
+11. Commercial attractiveness dimensions
+12. Disqualifier conditions
+13. Worked example or scenario
+14. Supporting references
+15. Related files
 
 ### Narrative opening style
 Open with the decision problem, what the comparison is measuring, and how the reader should interpret the output.
@@ -170,6 +175,20 @@ Typical dimensions:
 
 ### Key findings
 State the main patterns directly and clearly. This section should not hide the conclusion in tables.
+
+### Regulatory asymmetry view
+Use this section to isolate the small legal differences that create materially different outcomes across similar markets.
+
+Typical asymmetry dimensions:
+- legal definition boundary;
+- buyer-obligation trigger point;
+- certification recognition;
+- chain-of-custody model;
+- default versus actual GHG treatment;
+- import eligibility or importer access;
+- registry, audit, or documentary friction;
+- value-capture mechanics;
+- timing windows, grandfathering, or sunset treatment.
 
 ### Demand-side implications
 Explain what creates value in each market:
@@ -281,6 +300,33 @@ This file should map real SE Asia-origin feedstock classes to plausible pathway 
 ### High-priority opportunity ranking
 This file should rank combinations of market and pathway, not just markets in isolation.
 
+### Regulatory asymmetry matrix
+This file should compare the Wave 1 markets directly on the legal and implementation differences that can create outsized opportunity.
+
+At minimum, compare:
+- EU level versus key member-state implementation;
+- US federal versus California;
+- UK versus EU implementations;
+- Japan versus other Wave 1 destination markets where pathway treatment looks similar on the surface.
+
+For every asymmetry, state:
+- the rule difference;
+- the affected pathway or buyer class;
+- the commercial effect;
+- the proof or capability requirement;
+- whether the asymmetry is durable or likely temporary.
+
+### Wave 1 micro-opportunity log
+This file should capture short, high-value opportunity notes created by subtle legal or implementation differences in Wave 1 markets.
+
+Each entry should state:
+- market;
+- pathway or feedstock;
+- asymmetry type;
+- why the difference matters commercially;
+- what proof or capability is required;
+- what rule change would collapse the opportunity.
+
 ### Focused market analyses
 The EU, US, UK, Japan, and Southeast Asia focused files should unpack why the broader comparison looks the way it does for those specific areas.
 
@@ -337,11 +383,13 @@ Phase close review
 - Define comparison dimensions once
 - Define the rating language once
 - Define how qualitative judgment will be stated
+- Define the asymmetry dimensions once so every Wave 1 comparison uses the same legal-delta logic
 
 ### Step 3. Draft Wave 1 files
 - Start with the shared comparative outputs
 - Use consistent dimensions and tables across files
 - Include one diagram and one worked example in every Wave 1 file
+- Draft `regulatory_asymmetry_matrix.md` and `wave_1_micro_opportunity_log.md` before finalizing the opportunity ranking
 
 ### Step 4. Draft Wave 2 focused files
 - Use the Wave 1 framework to explain why the highest-priority markets look the way they do
@@ -359,6 +407,7 @@ Phase 4 is accepted only when all of the following are true:
 - ranking logic is explicit and reused consistently;
 - every comparative claim resolves back to Phase 2 or Phase 3 files;
 - every Wave 1 file includes commercial attractiveness dimensions and disqualifier conditions;
+- the asymmetry matrix and Wave 1 micro-opportunity log both exist and use stable comparison dimensions;
 - market-pathway comparisons are made at the combination level where needed, not only at the country level;
 - no file includes named counterparties or specific entry-model recommendations.
 
@@ -369,6 +418,7 @@ These conventions become mandatory in Phase 4:
 - Add one `Worked example or scenario` section in every Wave 1 file.
 - Add a `Supporting references` section pointing back to relevant country and pathway files.
 - Add `Commercial attractiveness dimensions` and `Disqualifier conditions` to every market-analysis file.
+- Add `Regulatory asymmetry view` to every market-analysis file.
 - Use a shared rating vocabulary across all analysis outputs.
 
 ## Risks and Failure Modes

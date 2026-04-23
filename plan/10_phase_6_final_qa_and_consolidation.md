@@ -19,6 +19,7 @@ By the end of Phase 6, the team should be able to confirm:
 - unresolved source gaps or interpretive cautions are visible;
 - recommendation labels and pathway terms mean the same thing everywhere;
 - strategy files answer buyer, timing, gating, and stop-condition questions clearly and consistently;
+- Wave 1 files make the material legal asymmetries visible rather than burying them inside general market summaries;
 - glossary and acronym support are sufficient for a new internal reader.
 
 Phase 6 is complete only when the repository behaves like one integrated system rather than multiple parallel workstreams.
@@ -151,6 +152,7 @@ This section should verify:
 - rating vocabulary consistency;
 - section-order consistency where templates require it.
 - strategy usefulness checklist compliance.
+- asymmetry vocabulary consistency across source, country, pathway, analysis, and strategy layers.
 
 ### Appendix completeness checks
 This section should verify that every support document needed by a new reader actually exists and is discoverable.
@@ -207,6 +209,7 @@ Final QA signoff
 - confirm all evidence-base sections point to the right upstream files;
 - surface any broken chains in the QA checklist.
 - run the strategy usefulness checklist against the whole Phase 5 folder.
+- run an asymmetry trace check for the Wave 1 markets so each highlighted delta resolves back to source and reference layers.
 
 ### Step 3. Normalize terminology
 - lock the canonical spelling and naming for pathways, markets, acronyms, and labels;
@@ -228,6 +231,7 @@ Phase 6 is accepted only when all of the following are true:
 - every required traceability chain works;
 - recommendation and rating vocabularies are consistent;
 - the strategy usefulness checklist passes or any failures are explicitly logged;
+- every Wave 1 market and pathway set shows at least one material asymmetry, one practical access friction, and one evidence-backed commercial effect;
 - unresolved issues are listed explicitly rather than hidden;
 - the repo can be entered by market, pathway, or strategy question without confusion.
 
@@ -238,6 +242,7 @@ These conventions become mandatory in Phase 6:
 - standardize the format of `Related files` sections across the repository;
 - make unresolved confidence or translation issues visible in appendices rather than buried in prose.
 - add a cross-reference to the strategy usefulness checklist from the final QA checklist.
+- add an asymmetry-check section to the final QA checklist for Wave 1 markets.
 
 ## Risks and Failure Modes
 ### Risk: QA becomes a cosmetic pass

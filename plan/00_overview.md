@@ -1,7 +1,7 @@
 # Program Overview
 
 ## Objective
-Build a structured internal reference system covering global bio-based fuel regulation, demand, supply potential, and strategy, with a specific decision lens for a Southeast Asia-based producer.
+Build a structured internal reference system covering global bio-based fuel regulation, demand, supply potential, legal asymmetries, and strategy, with a specific decision lens for a Southeast Asia-based producer.
 
 ## Primary Audience
 The primary user is a commercial / business development team that needs to screen opportunities, compare target markets, understand buyer pull, and decide which pathway-market combinations are worth pursuing.
@@ -33,6 +33,18 @@ The work product is not a single report. It is a layered document system:
 - Medium coverage: Brazil, Singapore
 - Context coverage: China, Indonesia, Malaysia, Thailand
 
+Wave 1 priority for asymmetry work:
+- EU
+- Germany
+- Netherlands
+- France
+- US federal
+- California
+- UK
+- Japan
+
+These Wave 1 markets should be researched to a deeper standard that forces capture of small legal and implementation differences that can change market access, timing, proof burden, premium capture, or buyer behavior.
+
 ## Required Analytical Views
 Every major topic should ultimately support these questions:
 - What regulation creates demand?
@@ -41,6 +53,9 @@ Every major topic should ultimately support these questions:
 - Where is supply structurally short?
 - Where can a Southeast Asia-based producer compete?
 - What certification, traceability, and chain-of-custody conditions gate access?
+- Which markets look similar at a high level but differ materially because of definitions, timing, certification recognition, or administrative friction?
+- Who actually captures the credit, certificate, or premium under each market design?
+- Which opportunities exist because of transition windows, grandfathering, proof asymmetries, or buyer-obligation design?
 - What commercial decision does this file support?
 - What would change the conclusion or make the team stop pursuing the opportunity?
 
@@ -51,6 +66,9 @@ Every major topic should ultimately support these questions:
 - Strategy only after validated source and analysis layers exist.
 - Use `eligible / restricted / capped / conditional` language instead of collapsing everything into `allowed / banned`.
 - Separate legal fact, agency interpretation, market observation, and strategy inference in every downstream document.
+- Capture temporal rules explicitly, including effective dates, phase-ins, transition windows, grandfathering, and sunset treatment.
+- Capture implementation and administrative friction explicitly where registry design, importer treatment, audit burden, or documentary controls affect real access.
+- Capture value-capture mechanics explicitly so the team can distinguish legal eligibility from who actually monetizes the outcome.
 - Make buyer logic, decision criteria, and stop conditions explicit before allowing a strategy recommendation.
 - Treat evidence confidence as part of the output, not an internal note.
 

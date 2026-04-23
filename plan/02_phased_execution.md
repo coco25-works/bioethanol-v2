@@ -5,6 +5,11 @@
 ## Phase 0. Program Design
 Create the working rules before any research drafting starts.
 
+This phase is covered by existing plan files:
+- `00_overview.md` — scope, objectives, operating principles
+- `04_file_templates.md` — file structures, metadata schema, asymmetry tag taxonomy
+- `01_repository_structure.md` — folder and file architecture
+
 Outputs:
 - scope and objectives
 - research method

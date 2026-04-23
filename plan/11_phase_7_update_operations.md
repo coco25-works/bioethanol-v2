@@ -20,6 +20,7 @@ By the end of Phase 7, the team should be able to answer:
 - how versioning and change logging work;
 - how to issue periodic update briefs without rebuilding the entire repository.
 - when a strategy recommendation must be re-labeled because buyer logic, timing, or access conditions changed.
+- when a previously attractive Wave 1 asymmetry has narrowed, disappeared, or shifted to a different actor.
 
 Phase 7 is complete only when the repository has a reusable maintenance model that preserves the evidence-first design from earlier phases.
 
@@ -153,6 +154,7 @@ This section should define what causes an immediate review, such as:
 - trade restrictions or fraud-enforcement changes;
 - major compliance-market shifts that would alter analysis or strategy conclusions.
 - changes in buyer eligibility, buyer concentration, or route access that would alter a strategy recommendation.
+- changes to definitions, threshold methods, registry access, transferability, or transition windows that would alter an asymmetry-based opportunity.
 
 ### Refresh cadence
 This section should define how often different parts of the repository are reviewed even when no major trigger appears.
@@ -163,6 +165,7 @@ Recommended baseline:
 - contextual jurisdictions: semiannual or material-change review;
 - strategy files: only after upstream evidence or analysis changes materially.
 - strategy usefulness checklist review: at every quarterly strategy refresh.
+- Wave 1 asymmetry review: at every quarterly refresh even if headline market size or demand rankings appear unchanged.
 
 ### File-update order
 This is the most important process rule in Phase 7. Updates must follow the evidence-first chain:
@@ -234,6 +237,7 @@ Version release note
 ### Step 2. Define trigger model
 - list material-change events that require immediate review;
 - distinguish them from routine refresh events.
+- include a dedicated list of asymmetry-collapse triggers for Wave 1 markets.
 
 ### Step 3. Lock update order
 - formalize the source-first propagation sequence;
@@ -256,6 +260,7 @@ Phase 7 is accepted only when all of the following are true:
 - change logging and versioning rules are clear;
 - strategy files cannot be refreshed independently of upstream evidence changes;
 - strategy labels, buyer logic, and stop conditions are part of the refresh review, not optional narrative clean-up;
+- Wave 1 asymmetry changes are explicitly checked during refresh rather than assumed to be captured indirectly;
 - the team could run a quarterly or event-driven update cycle without redesigning the workflow.
 
 ## Important Interface and Template Additions

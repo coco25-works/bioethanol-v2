@@ -23,6 +23,8 @@ By the end of Phase 5, the team should be able to answer:
 - which apparent opportunities should be treated as low priority or no-go.
 - who the likely buyer is;
 - why the timing works now;
+- what specific legal asymmetry creates the opportunity;
+- whether the opportunity is durable or mainly a transition-window opening;
 - what stronger alternative is better if this one is not.
 
 Phase 5 is complete only when these answers are expressed as modular strategy outputs that can be read independently while remaining fully traceable to Phase 2, Phase 3, and Phase 4.
@@ -99,6 +101,8 @@ Wave 1 should be completed first because it establishes the main strategic posit
 Each strategy file should read like a decision memo built on a visible evidence base.
 
 ### Required structure
+See `04_file_templates.md` for the canonical section list. Key sections:
+
 1. Title
 2. Last updated
 3. Strategic objective
@@ -106,17 +110,19 @@ Each strategy file should read like a decision memo built on a visible evidence 
 5. Recommendation summary
 6. Why now
 7. Why demand exists
-8. Buyer / counterparty logic
-9. Why Southeast Asia can compete
-10. Recommended entry model or strategic posture
-11. Commercial decision criteria
-12. Gating requirements
-13. Better alternatives / competing routes
-14. Risks and no-go conditions
-15. What would change this conclusion
-16. Evidence confidence
-17. Evidence base
-18. Related files
+8. Legal asymmetry creating the opportunity
+9. Buyer / counterparty logic
+10. Why Southeast Asia can compete
+11. Recommended entry model or strategic posture
+12. Commercial decision criteria
+13. Gating requirements
+14. Opportunity durability and collapse triggers
+15. Better alternatives / competing routes
+16. Risks and no-go conditions
+17. What would change this conclusion
+18. Evidence confidence
+19. Evidence base
+20. Related files
 
 ### Narrative opening style
 Open with the core decision tension, what the file recommends, and under what conditions the recommendation holds.
@@ -209,6 +215,18 @@ State who would actually buy, contract, aggregate, or monetize the opportunity:
 - shipping-linked buyers;
 - compliance-value intermediaries.
 
+### Legal asymmetry creating the opportunity
+State the exact rule difference that makes the recommendation attractive relative to similar markets.
+
+This should explain whether the opportunity is created by:
+- pathway definition;
+- buyer-obligation design;
+- certification recognition;
+- chain-of-custody treatment;
+- timing window;
+- administrative access;
+- value-capture mechanics.
+
 ### Why Southeast Asia can compete
 Explain the structural fit:
 - feedstock availability;
@@ -245,6 +263,17 @@ State what must be true before the recommendation is actionable:
 - buyer access;
 - technical conversion capability;
 - partnership prerequisites.
+
+### Opportunity durability and collapse triggers
+State whether the opportunity is likely durable, transitional, or dependent on a narrow implementation feature.
+
+For each major recommendation, say what would collapse the opportunity:
+- rule amendment;
+- expiry of a transition window;
+- loss of certification recognition;
+- tighter proof enforcement;
+- buyer-design change;
+- value-capture shift to another actor.
 
 ### Better alternatives / competing routes
 If another market-pathway combination is stronger, say so directly. Phase 5 should help the team avoid spending time on second-best opportunities when the evidence points elsewhere.
@@ -399,6 +428,7 @@ Phase close review
 - Define the priority labels once
 - Define the recommendation dimensions once
 - Define the meaning of `no-go` once
+- Define how legal asymmetry and opportunity durability will be stated across all strategy files
 
 ### Step 3. Draft Wave 1 files
 - Start with the executive summary and opportunity map
@@ -424,6 +454,7 @@ Phase 5 is accepted only when all of the following are true:
 - recommendation labels are explicit and used consistently;
 - every recommendation cites the relevant prior-phase evidence;
 - every major recommendation file includes `Why now`, `Buyer / counterparty logic`, `Commercial decision criteria`, `Better alternatives / competing routes`, and `What would change this conclusion`;
+- every major recommendation file includes `Legal asymmetry creating the opportunity` and `Opportunity durability and collapse triggers`;
 - risk, low-priority, and no-go outputs are present and substantive;
 - no file drifts into execution-level detail beyond the strategic layer.
 
@@ -434,6 +465,7 @@ These conventions become mandatory in Phase 5:
 - Add one `Worked example or strategy scenario` section in every Wave 1 file.
 - Add an `Evidence base` section pointing back to the relevant country, pathway, and market-analysis files.
 - Add `Why now`, `Buyer / counterparty logic`, `Commercial decision criteria`, `Better alternatives / competing routes`, `What would change this conclusion`, and `Evidence confidence` to every strategy file.
+- Add `Legal asymmetry creating the opportunity` and `Opportunity durability and collapse triggers` to every strategy file.
 - Use one shared recommendation vocabulary across all strategy outputs.
 
 ## Risks and Failure Modes

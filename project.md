@@ -1,147 +1,59 @@
 # Project Handoff
 
 ## What This Project Is
-This repository now contains the planning and skill foundation for a global bio-based fuels reference and strategy program.
+This repository is a complete, populated, and readability-rewritten research and strategy system for global bio-based fuels. It covers regulatory demand, supply potential, legal asymmetries, and market-entry strategy across biodiesel, bioethanol, biomethanol, biogas/RNG, renewable diesel/HVO, and adjacent pathways.
 
-The end-state envisioned by the plans is a layered document system that moves in this order:
-1. source and regulatory evidence collection
-2. country and jurisdiction reference documents
-3. pathway and product reference documents
-4. cross-market analysis
-5. strategy outputs
-6. QA and consolidation
-7. update operations
+The deliverables have been rewritten for mixed-team readability so they work for BD, compliance, operations, finance, leadership, and expert reviewers.
 
-At the moment, the repository is **not** populated with the actual research content yet. It is prepared for that work.
+## Current State
+The repository is **complete** as both a research deliverable and a readable decision-support system.
 
-## What Has Been Completed
-### 1. Full planning system
-The `plan/` folder now contains a complete phased program:
-- [plan/00_overview.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/00_overview.md)
-- [plan/01_repository_structure.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/01_repository_structure.md)
-- [plan/02_phased_execution.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/02_phased_execution.md)
-- [plan/03_agent_operating_model.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/03_agent_operating_model.md)
-- [plan/04_file_templates.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/04_file_templates.md)
-- [plan/05_phase_1_source_harvest.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/05_phase_1_source_harvest.md)
-- [plan/06_phase_2_country_reference_build.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/06_phase_2_country_reference_build.md)
-- [plan/07_phase_3_biofuel_reference_build.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/07_phase_3_biofuel_reference_build.md)
-- [plan/08_phase_4_market_analysis_build.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/08_phase_4_market_analysis_build.md)
-- [plan/09_phase_5_strategy_output_build.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/09_phase_5_strategy_output_build.md)
-- [plan/10_phase_6_final_qa_and_consolidation.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/10_phase_6_final_qa_and_consolidation.md)
-- [plan/11_phase_7_update_operations.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/11_phase_7_update_operations.md)
-- [plan/12_plan_review_matrix.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/12_plan_review_matrix.md)
-- [plan/13_strategy_usefulness_checklist.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/13_strategy_usefulness_checklist.md)
+### What has been built
+1. Full planning system — 15 plan files covering scope, structure, phasing, templates, and QA
+2. Reusable skill suite — 7 skills with 21 reference files
+3. Source registers — 13 jurisdictions with regulatory sources and metadata
+4. Country references — 13 jurisdictions explaining how each market works
+5. Pathway references — 9 biofuel pathway files with cross-market treatment
+6. Market analysis — global comparison, rankings, asymmetry matrix, feedstock mapping
+7. Strategy outputs — executive summary, opportunity map, pathway strategies, market-entry strategies, risk/no-go files
+8. Appendices — glossary, acronyms, citation index, QA checklist, watchlists, update policy
+9. Readability rewrite — all 7 rewrite phases completed for mixed-team use
+10. Plan review — deep review with 10 issues found and fixed
 
-### 2. Planning review and strengthening
-The plans were reviewed and strengthened with specific emphasis on:
-- commercial / BD usefulness
-- explicit buyer logic
-- recommendation labels
-- disqualifier and no-go logic
-- evidence confidence
-- update and maintenance discipline
+### Core finding
+**Waste-based HVO/FAME from Southeast Asia to Germany and the Netherlands is the strongest near-term opportunity.** Feedstock waste documentation and ISCC/RSB certification are the critical enablers.
 
-The key review artifacts are:
-- [plan/12_plan_review_matrix.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/12_plan_review_matrix.md)
-- [plan/13_strategy_usefulness_checklist.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/13_strategy_usefulness_checklist.md)
+## How To Read The Deliverables
 
-### 3. Local reusable skill suite
-The repo now has a reusable local skill suite in `skills/`:
-- [skills/reference-planning](</Users/luna/Developer/2026-04/notes-bioethanol/skills/reference-planning>)
-- [skills/reference-writing-style](</Users/luna/Developer/2026-04/notes-bioethanol/skills/reference-writing-style>)
-- [skills/strategy-writing](</Users/luna/Developer/2026-04/notes-bioethanol/skills/strategy-writing>)
-- [skills/diagram-drawing](</Users/luna/Developer/2026-04/notes-bioethanol/skills/diagram-drawing>)
-- [skills/source-harvest](</Users/luna/Developer/2026-04/notes-bioethanol/skills/source-harvest>)
-- [skills/market-analysis](</Users/luna/Developer/2026-04/notes-bioethanol/skills/market-analysis>)
-- [skills/evidence-traceability-qa](</Users/luna/Developer/2026-04/notes-bioethanol/skills/evidence-traceability-qa>)
+### Start here
+1. `deliverables/05_strategy_outputs/executive_strategy_summary.md`
+2. `deliverables/05_strategy_outputs/se_asia_producer_opportunity_map.md`
+3. `deliverables/04_market_analysis/global_market_comparison.md`
 
-These are now generalized enough to be reused on other projects too.
+### Then read by market
+4. `deliverables/02_country_reference/eu/germany.md`
+5. `deliverables/02_country_reference/eu/netherlands.md`
+6. `deliverables/02_country_reference/americas/united_states_federal.md`
 
-### 4. Skill validation
-All 7 skills were validated successfully with `quick_validate.py`.
+### Then read by pathway
+7. `deliverables/03_biofuel_reference/biodiesel_and_fame.md`
+8. `deliverables/03_biofuel_reference/renewable_diesel_hvo.md`
+9. `deliverables/03_biofuel_reference/certifications_and_chain_of_custody.md`
 
 ## Key Learnings
-### 1. The main risk was never structure, it was strategy usefulness
-The initial plan direction was already good. The main issue was that strategy usefulness can fail even when the structure is strong. The fix was to push commercial decision support upstream:
-- buyer / counterparty classes in country files
-- route competitiveness and proof burden in pathway files
-- disqualifier logic in analysis files
-- timing, alternatives, and stop conditions in strategy files
-
-### 2. Strategy cannot be treated as “the final write-up”
-The strategy layer only becomes useful when the evidence and analysis layers were designed to support it. That is why the most important rewrites were not only in Phase 5, but also in Phases 2 to 4.
-
-### 3. QA must test usefulness, not just correctness
-It was necessary to add a separate strategy usefulness checklist. Traceability alone is not enough if the final strategy files do not help a BD user decide whether to pursue, defer, or reject an opportunity.
-
-### 4. Diagrams need to be treated as a system
-The diagram skill now explicitly supports connected diagram series. This matters because the final document system will benefit from consistent visual logic across source, reference, analysis, strategy, and maintenance layers.
-
-### 5. Skills are worth the effort when the workflow repeats
-The skill suite is justified here because the project has repeatable workflows:
-- source harvesting
-- structured reference writing
-- cross-market comparison
-- strategy writing
-- traceability QA
-
-## What The Next Person Should Do
-### First read these files in order
-1. [plan/README.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/README.md)
-2. [plan/00_overview.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/00_overview.md)
-3. [plan/02_phased_execution.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/02_phased_execution.md)
-4. [plan/04_file_templates.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/04_file_templates.md)
-5. [plan/12_plan_review_matrix.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/12_plan_review_matrix.md)
-6. [plan/13_strategy_usefulness_checklist.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/13_strategy_usefulness_checklist.md)
-
-### Then start with execution in this order
-1. Scaffold the main content folders and file shells defined in [plan/01_repository_structure.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/01_repository_structure.md) if they are not already present or if they need to be normalized.
-2. Execute Phase 1 from [plan/05_phase_1_source_harvest.md](/Users/luna/Developer/2026-04/notes-bioethanol/plan/05_phase_1_source_harvest.md).
-3. Do not begin country-reference drafting until the Phase 1 source register has enough primary-source coverage to support it.
-4. Follow the phase order strictly through Phase 5 before attempting final QA or update operations.
-
-### Recommended skill usage by phase
-- Planning or restructuring work:
-  Use `reference-planning`
-- Writing source, reference, analysis, or appendix prose:
-  Use `reference-writing-style`
-- Drawing diagrams:
-  Use `diagram-drawing`
-- Phase 1 source collection:
-  Use `source-harvest`
-- Phase 4 comparison work:
-  Use `market-analysis`
-- Phase 5 recommendation writing:
-  Use `strategy-writing`
-- Phase 6 and 7 hardening / maintenance:
-  Use `evidence-traceability-qa`
-
-### Critical execution rules
-- Keep evidence-first ordering. Never update strategy conclusions without the evidence and analysis below them.
-- Use the strengthened templates. They now carry the important commercial fields.
-- Keep strategy outputs optimized for commercial / BD readers.
-- Use the strategy usefulness checklist during Phase 5 drafting, not only at the end.
-- If a strategy requirement depends on missing upstream information, expand the upstream file rather than inventing assumptions downstream.
-
-## Immediate Next Deliverables
-The next real deliverables to create are:
-- `01_source_register/README.md`
-- one source-register file per target jurisdiction
-- `06_appendices/source_gap_log.md`
-
-Only after that should the project move into:
-- `02_country_reference/...`
+1. Strategy usefulness is the main risk, not structure
+2. Strategy depends on evidence and analysis being designed to support it
+3. QA must test usefulness, not just correctness
+4. Diagrams should be treated as part of the information system
+5. Skills pay off when the workflow repeats
 
 ## Risks To Watch
-- letting Phase 1 turn into interpretation instead of source logging
-- writing country files that still do not expose buyer classes clearly enough
-- letting analysis files rank opportunities without explicit disqualifiers
-- writing strategy files without `Why now`, buyer logic, better alternatives, or stop conditions
+- letting source logging turn into interpretation
+- writing strategy without explicit buyer logic and stop conditions
 - treating QA as formatting instead of trust hardening
+- letting recommendations age without upstream evidence refresh
 
 ## Completion State
-This project is complete as a **planning and capability foundation**.
+This project is **complete**.
 
-It is not complete as a **research deliverable**.
-
-The next person should treat this repo as ready for execution, not as already-executed research.
+The deliverables are ready for team use. The next person should read the strategy summary first, then the opportunity map, then the market files relevant to their focus area.

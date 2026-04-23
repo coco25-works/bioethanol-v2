@@ -52,6 +52,17 @@ They own:
 - Shared gaps should be fixed at the highest reusable layer first: overview, repository structure, agent model, and templates before phase-specific duplication.
 - If a strategy requirement depends on missing upstream inputs, the upstream phase plan must be expanded.
 
+## Single-Operator Execution Mode
+
+When execution is done by one person or one AI tool rather than a team of specialized agents, treat the agent roles above as a **responsibility matrix**. The operator should:
+
+- follow the ownership boundaries sequentially rather than in parallel;
+- perform the QA reviewer role separately from the drafting role (i.e., draft first, then review with fresh context);
+- use the handoff rules as a self-check: "Am I writing strategy conclusions in a source file? Stop."
+- treat the plan-review function as a personal review pass against the plan-review matrix.
+
+The agent model defines *what hats to wear*, not *how many people to hire*.
+
 ## Work Allocation Rule
 Assign ownership by file, not by loose topic area. Every file should have one lead agent and one QA reviewer.
 

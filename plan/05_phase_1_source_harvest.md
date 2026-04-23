@@ -17,6 +17,8 @@ By the end of Phase 1, the team must be able to answer these questions without o
 - What are the primary legal instruments governing each market?
 - Which official sources define eligibility, caps, thresholds, and demand mechanisms?
 - Which sources are primary law versus guidance versus official data?
+- Which sources define the small legal and implementation differences that may create commercial asymmetry across similar markets?
+- Which rules control timing, transition windows, proof mechanics, administrative access, or value capture?
 - Which source gaps remain unresolved?
 - Which jurisdictions are ready for Phase 2 extraction, and which are blocked by missing authority or translation issues?
 
@@ -60,6 +62,8 @@ Use two waves.
 - Malaysia
 - Thailand
 
+Wave 2 jurisdictions receive full source registration but at a thinner evidence standard. They are not excluded from coverage; they are secondary depth priority.
+
 The reason for this order is simple: Phase 2, 3, and 4 depend most heavily on the markets where regulation directly creates compliance demand and monetizable premiums.
 
 ## Folder and File Outputs
@@ -96,13 +100,24 @@ Every source entry must be classified into one of four authority levels:
 
 Every entry must also be tagged for topic relevance:
 - feedstock eligibility
+- pathway definitions and classification
 - restricted or capped pathways
 - lifecycle GHG thresholds
+- default versus actual GHG method
 - blending mandate
 - quota obligation
+- buyer-obligation trigger point
 - tradable credit system
+- double counting or multipliers
+- subtargets or carve-outs
+- pathway approval mechanics
 - certification or proof requirement
+- certification recognition
+- chain-of-custody model
 - import or trade restriction
+- importer registration or registry access
+- credit ownership or transferability
+- audit, enforcement, or penalty mechanics
 - maritime
 - aviation
 - implementation or compliance mechanics
@@ -188,9 +203,19 @@ Use one standard table in every jurisdiction file.
 | Source type | Primary law / guidance / data / secondary |
 | Regulator / issuer | Exact authority |
 | Date | Publication or adoption date |
+| Effective date | When the rule takes effect if different from publication |
+| In-force status | In force / pending / superseded / partially in force |
+| Amendment or version status | Original, amended, consolidated, or version identifier |
+| Sunset / grandfathering / transition window | Short note if timing treatment matters |
+| Jurisdictional level | Supranational / national / state / regulator / scheme |
+| Language | Source language |
+| Official translation status | Official translation / unofficial translation / original only |
 | Citation location | Article / section / rule / chapter if known |
 | Link | Official URL if available |
 | Topic tags | Comma-separated issue tags |
+| Asymmetry tags | Comma-separated tags using the controlled vocabulary defined in `04_file_templates.md` |
+| Implementing dependency | Short note on implementing rule or agency dependency |
+| Quoted rule text or extraction note | Short quoted clause or extraction note for later comparison |
 | Relevance note | One-line note only |
 | Status | Confirmed / needs translation check / superseded / secondary only / missing |
 
@@ -205,44 +230,52 @@ Must capture:
 - Annex IX feedstock treatment
 - FuelEU Maritime
 - official Commission guidance and implementing materials if used later
+- transition timing, grandfathering, and definition changes that create member-state asymmetry
 
 ### Germany
 Must capture:
 - the core legal instruments behind the transport GHG quota regime
 - any official compliance or implementation references needed to understand market treatment
+- the specific rules that control quota accounting, proof burden, and value capture versus other EU markets
 
 ### Netherlands
 Must capture:
 - core legal basis for the transport-energy compliance system
 - official materials explaining HBE categories or equivalents
+- the specific features that make Dutch treatment differ from otherwise similar EU markets
 
 ### France
 Must capture:
 - legal basis for TIRUERT and official implementation references
 - any official treatment of excluded feedstocks if used later in analysis
+- timing, documentation, or implementation differences that change access versus other EU markets
 
 ### US federal
 Must capture:
 - Clean Air Act statutory anchor for RFS
 - EPA rulemaking and official program pages used for pathway interpretation
 - official RIN and program data sources where later analysis depends on them
+- pathway approval, credit ownership, transferability, and timing mechanics that make US federal treatment differ from California, UK, EU, or Japan
 
 ### California
 Must capture:
 - LCFS legal anchor
 - CARB compliance references
 - official CI or program references if used later
+- pathway CI treatment, registry and reporting mechanics, and value-capture logic that differ from federal or overseas systems
 
 ### UK
 Must capture:
 - RTFO legal foundation
 - official Department for Transport or administrator guidance
 - development fuel references where relevant
+- the specific treatment differences that create opportunities or burdens versus EU, US, or Japan
 
 ### Japan
 Must capture:
 - legal or official-policy basis for transport or aviation-linked demand where the later analysis depends on it
 - translation status must be explicit wherever the authoritative text is not in English
+- any official thresholds, timing windows, certification-recognition rules, or buyer-design features that make Japan commercially distinct from other Wave 1 markets
 
 ### Wave 2 jurisdictions
 These can start thinner, but each file still needs:
@@ -383,6 +416,7 @@ Wave close review
 - Fill the high-priority demand-center markets to a higher standard
 - Ensure article/section-level anchors wherever possible
 - Confirm official guidance and official data layers
+- Require explicit capture of timing rules, proof asymmetries, administrative friction, and value-capture mechanics for every Wave 1 market
 
 ### Step 4. Populate Wave 2 to baseline
 - Capture primary anchors and explicit limitations
@@ -400,6 +434,7 @@ Phase 1 is accepted only when all of the following are true:
 - every target jurisdiction has a source-register file;
 - every file has a narrative opening, a diagram, and a standardized metadata table;
 - every Wave 1 market has primary legal anchors for the main demand mechanism;
+- every Wave 1 market has primary or official anchors for the main legal asymmetries that could change access, timing, or premium capture;
 - every unresolved issue is captured in the gap log;
 - every file states a baseline date;
 - every file ends with a readiness assessment;
@@ -414,6 +449,7 @@ These are the concrete file-level conventions the implementer must follow:
 - Use one metadata table shape across all jurisdictions.
 - Use identical status terms across all files.
 - Use identical topic tags across all files.
+- In Wave 1 markets, use explicit asymmetry tags so subtle legal differences are searchable later.
 
 ## Risks and Failure Modes
 ### Risk: source register turns into analysis
